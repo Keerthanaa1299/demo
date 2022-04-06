@@ -1,0 +1,30 @@
+interface Demo1 {
+
+        void disp();
+		void test();
+		}
+	
+		class Tester implements Demo1
+		{
+		public void disp()
+			{
+				System.out.println("disp");
+			}
+		
+		
+		public	void test()
+			{
+				System.out.println("test");
+			}
+		}
+		
+		
+	public	class Interface
+		{
+			public static void main(String[] args)
+			{
+				Tester t=new Tester();
+				t.disp();
+				t.test();
+			}
+		}
